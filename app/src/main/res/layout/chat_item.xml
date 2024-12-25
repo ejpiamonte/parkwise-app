@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:gravity="end"
+    android:layout_height="wrap_content"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:orientation="horizontal">
+
+    <com.github.captain_miao.optroundcardview.OptRoundCardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:optRoundCardCornerRadius="25dp"
+        app:optRoundCardElevation="0dp"
+        app:optRoundCardRightBottomCorner="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/olfu"
+            android:padding="8dp"
+            android:gravity="end">
+
+            <TextView
+                android:id="@+id/message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="This is a log message to make the UI looks good when someone sends some big texts."
+                android:textColor="#323232"
+                android:textSize="13sp"/>
+
+            <ImageView
+                android:id="@+id/chat_image"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_marginStart="8dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_launcher_foreground"
+                android:visibility="gone"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/user_image"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@mipmap/ic_launcher"/>
+        </LinearLayout>
+    </com.github.captain_miao.optroundcardview.OptRoundCardView>
+</LinearLayout>

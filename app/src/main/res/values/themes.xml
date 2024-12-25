@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FirebaseAuth" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">#000000</item>
+        <item name="colorPrimaryContainer">#FF0000</item>
+        <item name="colorOnPrimary">#41C17F</item>
+        <item name="colorOnPrimaryContainer">#00D8FF</item>
+
+    </style>
+
+    <style name="Theme.FirebaseAuth" parent="Base.Theme.FirebaseAuth" />
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Material3.Light" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Material3.Light" parent="Base.Theme.Material3.Light" />
+</resources>

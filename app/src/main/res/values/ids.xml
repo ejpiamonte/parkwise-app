@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="loginNow" type="id" />
+    <item name="user_details" type="id" />
+    <item name="toolbar" type="id" />
+    <item name="imageButton4" type="id" />
+    <item name="message" type="id" />
+    <item name="video_view" type="id" />
+</resources>

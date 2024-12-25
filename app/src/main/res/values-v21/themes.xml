@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Base.Theme.FirebaseAuth" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">#000000</item>
+        <item name="colorPrimaryContainer">#FF0000</item>
+        <item name="colorOnPrimary">#41C17F</item>
+        <item name="colorOnPrimaryContainer">#00D8FF</item>
+        <item name="android:statusBarColor">#00000000</item>
+
+    </style>
+</resources>

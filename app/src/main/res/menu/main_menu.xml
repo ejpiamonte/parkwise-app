@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/home"
+            android:icon="@drawable/home_icon"/>
+        <item
+            android:id="@+id/nav_reserve"
+            android:title="@string/reserve"
+            android:icon="@drawable/reserve_icon"/>
+        <item
+            android:id="@+id/nav_chatroom"
+            android:title="@string/chatroom"
+            android:icon="@drawable/chatroom_icon"/>
+    </group>
+
+
+        <item
+            android:title="@string/profile">
+            <menu>
+                <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/logout"
+                    android:title="Logout"
+                    android:icon="@drawable/logout_icon" />
+                <item
+                    android:id="@+id/settings"
+                    android:title="@string/settings"
+                    android:icon="@drawable/settings_icon" />
+                </group>
+            </menu>
+        </item>
+
+
+
+        <item
+            android:title="@string/communicate">
+            <menu>
+                <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/share"
+                    android:title="@string/share"
+                    android:icon="@drawable/share_icon"/>
+                <item
+                    android:id="@+id/nav_feedback"
+                    android:title="@string/feedback"
+                    android:icon="@drawable/feedback_icon"/>
+                </group>
+            </menu>
+
+        </item>
+
+</menu>

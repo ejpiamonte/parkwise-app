@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:id="@+id/google_sign_in"
+    tools:context=".ReplaceForLogin">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="startLogin"
+        app:backgroundTint="@android:color/white"
+        app:tint="@null"
+        android:clickable="true"
+        app:srcCompat="@drawable/google_icon"
+        android:focusable="true"
+        android:contentDescription="@string/google_sign_in" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="@string/sign_in_with_google" />
+</LinearLayout>

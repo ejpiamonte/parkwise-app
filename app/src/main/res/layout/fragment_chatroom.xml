@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ChatroomFragment">
+
+    <!-- RecyclerView for chat messages -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/chat_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:clipToPadding="false"
+        android:paddingTop="10dp" />
+
+    <!-- CardView for input box and send button -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/white"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="8dp">
+
+        <!-- ConstraintLayout inside CardView -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!-- EditText for typing messages -->
+            <EditText
+                android:id="@+id/chat_box"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:hint="@string/start_messaging"
+                android:padding="15dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/imageButton"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- ImageButton for sending messages -->
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginEnd="10dp"
+                android:padding="5dp"
+                android:contentDescription="@string/sendbtn"
+                android:scaleType="centerCrop"
+                android:src="@drawable/send_icon"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:onClick="addMessage" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

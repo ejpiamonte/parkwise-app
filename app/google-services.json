@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "31207352115",
+    "firebase_url": "https://login-register-form-fire-a523b-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "login-register-form-fire-a523b",
+    "storage_bucket": "login-register-form-fire-a523b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:31207352115:android:5751df4d3b1ef0f5128046",
+        "android_client_info": {
+          "package_name": "com.example.chatroom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "31207352115-5ndm394v4joi7j635kaq19so4f91mtkm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chatroom",
+            "certificate_hash": "e3b31dbbe0d01eac4a3e8840c759f6414eff88ae"
+          }
+        },
+        {
+          "client_id": "31207352115-t3djtv2s3ijtsk3r28ekn24mnu3jerq0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9tJZGFDGx5La7E_TeBkqq6sSU1_nSOhc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "31207352115-t3djtv2s3ijtsk3r28ekn24mnu3jerq0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:31207352115:android:04af6df0be39e3e9128046",
+        "android_client_info": {
+          "package_name": "com.example.firebaseauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "31207352115-dt0mphek5nb1lb30iidedoliejo7g63s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebaseauth",
+            "certificate_hash": "e3b31dbbe0d01eac4a3e8840c759f6414eff88ae"
+          }
+        },
+        {
+          "client_id": "31207352115-so0brck8oq9vqv8v55h85dhqkb35uq9d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebaseauth",
+            "certificate_hash": "ecee34dd8d26b4b9629c9330fd9bccdbbecab77b"
+          }
+        },
+        {
+          "client_id": "31207352115-t3djtv2s3ijtsk3r28ekn24mnu3jerq0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9tJZGFDGx5La7E_TeBkqq6sSU1_nSOhc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "31207352115-t3djtv2s3ijtsk3r28ekn24mnu3jerq0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:31207352115:android:b62844a852e18fe9128046",
+        "android_client_info": {
+          "package_name": "com.parkwise.chatroom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "31207352115-t3djtv2s3ijtsk3r28ekn24mnu3jerq0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9tJZGFDGx5La7E_TeBkqq6sSU1_nSOhc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "31207352115-t3djtv2s3ijtsk3r28ekn24mnu3jerq0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
