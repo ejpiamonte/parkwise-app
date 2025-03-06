@@ -46,8 +46,25 @@ The ParkWise App is designed to help users find and reserve parking spaces easil
 &emsp;&emsp;&emsp;
 <img src="https://github.com/user-attachments/assets/8a4672c8-4289-493c-abb3-4ceed695980d" width="300" style="border-radius: 30px;">
 &emsp;&emsp;&emsp;<br>
-<img src="https://github.com/user-attachments/assets/d5fb2597-5443-4726-8dbb-a928a05602f0" width="300" style="border-radius: 30px;">
-&emsp;&emsp;&emsp;
+<p align="center">
+   <img src="https://github.com/user-attachments/assets/d5fb2597-5443-4726-8dbb-a928a05602f0" width="300" style="border-radius: 30px;"> 
+   &emsp;&emsp;&emsp;
+   <img src="https://github.com/user-attachments/assets/307593da-c9f4-441e-a55a-9b0a6c55d46e" width="300" style="border-radius: 30px;"> 
+   &emsp;&emsp;&emsp;
+</p>
+<p align="center">
+   <img src="https://github.com/user-attachments/assets/5f08101d-3f9f-42cf-a555-8c67d45ced18" width="650" style="border-radius: 30px;"> 
+   &emsp;&emsp;&emsp;
+   <img src="https://github.com/user-attachments/assets/a9770448-7265-42f5-82c3-965752e66348" width="650" style="border-radius: 30px;"> 
+   &emsp;&emsp;&emsp;
+</p>
+
+
+
+
+
+
+
 
 
 
