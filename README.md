@@ -59,7 +59,13 @@ The ParkWise App is designed to help users find and reserve parking spaces easil
    &emsp;&emsp;&emsp;
 </p>
 
+## Top Languages
 
+![GitHub language count](https://img.shields.io/github/languages/count/ejpiamonte/parkwise-app)  
+![Top language](https://img.shields.io/github/languages/top/ejpiamonte/parkwise-app)
+
+
+Thanks for visiting the ParkWise App repository! Have a great day! 😄
 
 
 
